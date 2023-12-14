@@ -1,0 +1,20 @@
+{
+  "name": "folder-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/folderChecker.ts",
+    "build": "tsc",
+    "package-win": "pkg --target win dist/folderChecker.js --output dist/folderChecker-win.exe",
+    "package-linux": "pkg --target linux dist/folderChecker.js --output dist/folderChecker-linux",
+    "package-macos": "pkg --target macos dist/folderChecker.js --output dist/folderChecker-macos"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  }
+}
