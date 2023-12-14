@@ -3,6 +3,6 @@
 ## Run in terminal:
 - cd folder-checker
 - npx tsc
-- node dist/folderChecker.js
+- node dist/index.js
 
 
